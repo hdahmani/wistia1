@@ -1,0 +1,394 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+  }
+header{
+    display:flex;
+  width: 100%;
+  
+
+}
+.logo-nav{
+    padding-left:5px; 
+     max-width:25%;
+     border-right:solid 0.5px #efefef; 
+}
+
+ 
+.logo{
+    width:70%;
+
+}
+
+.nav-bar{
+    width:50%%;
+    flex-grow: 8;
+    display:flex;
+    flex-direction: column;
+    border:solid 0.5px #efefef;
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 11px;
+    overflow: hidden;
+    
+}
+.logo-nav{
+    width: 20%;
+    padding-left:10px; 
+}
+.nav-top{
+    
+  padding-bottom: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+     
+}
+.bottom-nav{
+    padding-bottom: 22px;
+
+    background: #f9f9f9;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  
+}
+
+.inscription{
+    width:25%;
+    margin: 0px;
+ 
+
+}
+a{
+    color:#6c798b;
+    padding: 19px;
+    font-family: Comic Sans MS;
+    text-decoration: none;
+    text-align: left;
+    font-size: 16px;
+   
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+.btn-signup{
+    font-size: 16px;
+    color:#217ad5;
+    background-color: white;
+    height: 100%;
+    width:50%;
+    border: none;
+    
+   
+} 
+.btn-login{
+    font-size: 16px;
+    color:#6c798b;
+    margin: 0px;
+    border: none;
+    background-color: white;
+    height: 100%;
+    width:48%;
+    border-left:solid 0.5px #efefef;
+     
+} 
+.btn-signup:hover{
+    background-color: #f9f9f9;
+}
+.btn-login:hover{
+    background-color: #f9f9f9;
+}
+.b{
+    background-image: none;
+}
+span{
+    padding-right: 8px;
+}
+
+.head-home-page{
+    display: flex;
+    background-color: #CEA0AF;
+ margin-top:0px;
+ font-family: sans-serif; 
+ height: 500px;
+}
+.white-text{
+    
+    color:white;
+}
+.block-into{
+    display: flex;
+    position: relative;
+justify-content: space-between;
+   
+    
+}
+
+.head-video{
+  margin-right: 90px;
+   width: 50%;
+   margin-top: 20px;
+  right: 0px;
+  padding-left: 100px;
+  
+}
+.head-text{
+  width: 50%; 
+   margin:auto 0px auto 0px;
+   padding-left:  80px;
+   font-size: 2.6em;
+    font-weight: 400;
+    
+}
+.btn-watch{
+    font-family:  sans-serif;
+  padding: 15px 25px;
+  font-size: 24px; 
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+.btn-watch:hover{
+        box-shadow: 0 5px   #666;
+        transform: translatey(4px);
+}
+h1{ line-height: 1.4;}
+.Hosting{
+    background-color: #FED24A;
+    padding: 45px;
+}
+
+.offer{
+    display: flex;
+    flex-direction: row;
+  
+      
+}
+.Soapbox{
+    background-color: #51C29F;
+    padding: 45px;
+}
+
+.skills{
+    background-color: #3EA9F5;
+    padding: 45px ;
+}
+svg{
+    width: 50px;
+    height: 50px;
+}
+
+h2{
+    color: white;
+    font-family: "Walsheim", sans-serif;
+    margin-top: 15px;
+    Font-Weight: Bold;
+    margin-bottom: 10px;
+}
+
+.btn-start{
+    background-color: transparent;
+    padding: 20px;
+    width: 200px;
+    border: 2px solid #EFEFEF;
+    font-family: sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 17px;
+    Font-Weight: Bold;
+}
+p{
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    width: 100%;
+    font-family:sans-serif;
+    Font-Weight: Bold;
+    
+}
+.btn-marg{
+    margin-top: 27px;
+}
+
+.Learn{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 17px;
+    padding: 0px;
+    Font-Weight: Bold;
+}
+
+.Learn:hover{
+    color: black;
+    text-decoration-line: underline;
+    
+    
+}
+
+.btn-start:hover{
+    background-color: white;
+}
+
+.sponsor{
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+
+}
+
+.text-sponsor{
+    font-weight: 600;
+    font-size: 17px;
+    color: #9CA8B7;
+    padding-left: 50px;
+}
+
+.block-sponsor{
+    display: flex;
+    align-items: center;
+     justify-content: center;
+    padding: 30px 0;
+    width: 100%;
+    
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 60px;
+     
+}
+.about-block{
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-about{
+    width: 80%;
+}
+h3{
+    margin-left: 18px;
+   font-size: 20px;
+    font-weight: bold;
+    font-family: "Walsheim", sans-serif;
+}
+.text-about{
+    margin-top: 30px;
+    margin-left: 18px;
+   font-size: 17px;
+   text-align:left;
+   width: 80%;
+   font-weight: normal;
+   
+
+}
+
+.link-about{
+    text-decoration-line: underline;
+    color: #217ad5;
+}
+
+.link-about:hover{
+    text-decoration-line: underline;
+    color: #217ad5;
+}
+
+.img-about:hover {
+color: #51C29F;
+visibility : hidden;
+} 
+
+.head-footer{
+    background-color: #e8e7e6;
+    text-align: center;
+    height: 60px;
+    padding-top: 20px;
+}
+
+.link-footer{
+    font-family: Comic Sans MS;
+    text-decoration-line: underline;
+}
+
+.text-footer{
+    font-family: Comic Sans MS;
+    color:#6c798b;
+    font-weight: normal;
+}
+
+.main-footer{
+    background-color: #2a2d35;
+    display: flex;
+    
+}
+ hr{
+    
+    color: #6c798b;
+    width: 90%;
+    text-align: center;
+   
+ }
+ .footer-cpy{
+     color: #6c798b;
+     font-size: 14px;
+   text-align: center;
+   padding-bottom:60px; 
+   padding-top: 30px;
+    
+ }
+
+ .main-footer-cpy{
+    background-color: #2a2d35;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h4{
+    color: white;
+ margin-left:20px; 
+}
+
+.footer-logo{
+    padding: 45px;
+    width:40%;
+    
+}
+
+.sociaux{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 1em;
+     
+}
+
+.sociaux>a{
+    padding: 1px;
+    color: #217ad5;
+}
+.sociaux>a:hover{
+    padding: 1px;
+    color: #217ad5;
+    text-decoration-line: underline;
+}
+
+ 
